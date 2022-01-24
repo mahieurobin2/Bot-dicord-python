@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    container_name: bot-discord
+    image: best_bot
+    build:
+    restart: always
